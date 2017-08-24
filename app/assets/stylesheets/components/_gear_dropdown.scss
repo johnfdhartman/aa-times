@@ -1,0 +1,58 @@
+.editions, .help {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: gray;
+}
+
+.editions li, .help li {
+  background-color: inherit;
+  font-family: $sans-serif;
+  text-transform: uppercase;
+  color: gray;
+}
+
+
+
+#gear-dropdown-btn{
+  position: relative;
+}
+
+#gear-dropdown {
+  position: absolute;
+  top: 50px;
+  left: -30px;
+  width: 100px;
+  background-color: white;
+  border-style: solid;
+  border-color: $light-gray;
+  border-width: 1px;
+  box-shadow: -1px 4px 6px 1px rgba(0,0,0,0.09);
+}
+
+.editions li:hover{
+  background-color: $light-gray;
+  transition: background-color 1s;
+  color: black;
+}
+
+.help li:hover{
+  color: $darkest-blue;
+  transition: color 1s;
+  text-decoration: underline;
+}
+// ul > span {
+//   color: black;
+//   align-items: center;
+//   justify-content: center
+// }
+
+.dropdown-subtitle {
+  align-self: center;
+  font-family: $sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: $dark-gray;
+  text-align: center;
+  display: block;
+}

@@ -1,0 +1,67 @@
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  color: white;
+}
+
+.right-nav, .left-nav {
+  display: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.left-nav > ul,
+.right-nav > ul {
+  display: inherit;
+  justify-content: inherit;
+  align-items: flex-start;
+}
+
+.right-nav i {
+  padding: 5px;
+	font-size: 20px;
+}
+
+.left-nav > ul > li {
+  justify-content: inherit;
+  display: inherit;
+  padding: 5px;
+  align-items: inherit;
+}
+
+.right-nav > ul > li {
+  display: inherit;
+  justify-content: inherit;
+  padding: 5px;
+  align-items: inherit;
+  align-content: center;
+}
+
+.right-nav > ul > li:last-of-type {
+  color: black;
+
+}
+
+.left-nav > ul > li:hover,
+.right-nav > ul > li:last-of-type:hover {
+	background-color: $lightest-gray;
+  transition: background-color 0.5s;
+  font: inherit;
+}
+
+#sections-sidebar-btn button , #search-modal-btn button{
+  background-color: white;
+  color: black;
+}
+
+#sections-sidebar-btn button:hover,
+#search-modal-btn button:hover {
+  background-color: $light-gray;
+}
+
+.left-nav span {
+
+}

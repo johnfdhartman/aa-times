@@ -1,0 +1,19 @@
+.section-nav {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  border-style: solid;
+  border-color: $light-gray;
+  border-bottom-width: 1px;
+}
+
+.section-nav ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.section-nav ul li {
+  padding: 10px;
+  font-family: $sans-serif;
+  text-transform: capitalize;
+}
